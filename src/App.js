@@ -9,6 +9,7 @@ import faAngleRight from '@fortawesome/fontawesome-free-solid/faAngleRight';
 import NavBar, { ElementsWrapper } from 'react-scrolling-nav';
 import Resume from './Resume';
 import Projects from  './Projects';
+import Footer from './Footer';
 
 fontawesome.library.add(brands, faAngleDown, faAngleRight)
 
@@ -26,6 +27,9 @@ class App extends Component {
     }, {
         label: "Projects",
         target: "projects"
+    }, {
+        label: "Footer",
+        target: "footer"
     }, ]
     return (
       <div>
@@ -37,6 +41,7 @@ class App extends Component {
                 <div name="about"><AboutMe/></div>
                 <div name="Resume"><Resume/></div>
                 <div name="projects"><Projects/></div>
+                <div name="footer"><Footer/></div>
               </ElementsWrapper>
           </div>
       </div>
