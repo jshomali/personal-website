@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Home from './Home';
-import Path from './Path';
 import AboutMe from './AboutMe';
 import fontawesome from '@fortawesome/fontawesome';
 import brands from '@fortawesome/fontawesome-free-brands';
@@ -27,9 +26,6 @@ class App extends Component {
     }, {
         label: "Projects",
         target: "projects"
-    }, {
-        label: "Footer",
-        target: "footer"
     }, ]
     return (
       <div>
@@ -41,9 +37,9 @@ class App extends Component {
                 <div name="about"><AboutMe/></div>
                 <div name="Resume"><Resume/></div>
                 <div name="projects"><Projects/></div>
-                <div name="footer"><Footer/></div>
               </ElementsWrapper>
           </div>
+          <Footer/>
       </div>
       // <div>
       //   <Navbar/>

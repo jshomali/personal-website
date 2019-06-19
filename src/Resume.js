@@ -24,15 +24,15 @@ class Resume extends Component {
 		return (
 			<div className="viewportCover">
 			    <ScrollAnimation animateIn = "fadeInUp" animateOnce = "true">
-					
+
 				</ScrollAnimation>
 				<div id="resume">
 					<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true">
-						<Document file={resume} onLoadSuccess={this.onDocumentLoad} noData="PDF file not found.">
+						<Document file={resume} onLoadSuccess={this.onDocumentLoad} noData="PDF not found.">
 					          <Page pageNumber={pageNumber} />
 					    </Document>
 					    <div id="printableText">
-					    	<a href={resume} style={{transition:"0.3s"}}>Printable copy</a>
+					    	<a href={resume} style={{transition:"0.4s"}}>Printable copy</a>
 					    </div>
 					 </ScrollAnimation>
 			    </div>

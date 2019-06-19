@@ -106,12 +106,12 @@ img {
   animation-delay: 0.5s;
 }
 
-/*
+
 #second {
   animation-delay: 1.25s;
   animation-duration: 0.5s;
 }
-*/
+
 #profileImage {
   animation-delay: 1.5s;
   animation-duration: 0.5s;
@@ -151,11 +151,6 @@ img {
   font-size: 500%;
   color: blue;
   text-align: center;
-}
-
-#first {
-  /* Helvetica-Neue */
-  /* font-family: Arial; */
 }
 
 /*margin: 100px 200px 100px 200px;*/
