@@ -1,26 +1,50 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Home from './Home';
+import Path from './Path';
+import AboutMe from './AboutMe';
+import fontawesome from '@fortawesome/fontawesome';
+import brands from '@fortawesome/fontawesome-free-brands';
+import faAngleDown from '@fortawesome/fontawesome-free-solid/faAngleDown';
+import faAngleRight from '@fortawesome/fontawesome-free-solid/faAngleRight';
+import NavBar, { ElementsWrapper } from 'react-scrolling-nav';
+import Resume from './Resume';
+import Projects from  './Projects';
+
+fontawesome.library.add(brands, faAngleDown, faAngleRight)
 
 class App extends Component {
   render() {
+    const navbarItems = [{
+        label: "Home",
+        target: "home"
+    }, {
+        label: "About",
+        target: "about"
+    }, {
+        label: "Resume",
+        target: "Resume"
+    }, {
+        label: "Projects",
+        target: "projects"
+    }, ]
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+          <NavBar items={navbarItems} offset={-80} duration={500} delay={0}>
+          </NavBar>
+          <div className="container">
+              <ElementsWrapper items={navbarItems}>
+                <div name="home"><Home/></div>
+                <div name="about"><AboutMe/></div>
+                <div name="Resume"><Resume/></div>
+                <div name="projects"><Projects/></div>
+              </ElementsWrapper>
+          </div>
       </div>
+      // <div>
+      //   <Navbar/>
+      //   <Home/>
+      //   <AboutMe/>
+      // </div>
     );
   }
 }
