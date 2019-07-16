@@ -12,22 +12,22 @@ class Footer extends Component {
 
 	        <div>
 	        	{/* Github */}
-	        	<a href="https://github.com/jshomali">
+	        	<a id="icon-github" href="https://github.com/jshomali">
 	         		<FontAwesomeIcon style={{padding:"20px", transition: "0.3s"}} icon={['fab', 'github']} size="2x"/>
 	         	</a>
 
 	         	{/* Linkedin */}
-	         	<a href="https://www.linkedin.com/in/julian-shomali">
+	         	<a id="icon-linkedin" href="https://www.linkedin.com/in/julian-shomali">
 	         		<FontAwesomeIcon style={{padding:"20px", transition: "0.3s"}} icon={['fab', 'linkedin']} size="2x"/>
 	         	</a>
 
 	         	{/* Facebook */}
-	         	<a href="https://www.facebook.com/jshomali1">
+	         	<a id="icon-facebook" href="https://www.facebook.com/jshomali1">
 	          		<FontAwesomeIcon style={{padding:"20px", transition: "0.3s"}} icon={['fab', 'facebook']} size="2x"/>
 	          	</a>
 
 	          	{/* Instagram */}
-	          	<a href="https://www.instagram.com/jshomali/">
+	          	<a id="icon-instagram" href="https://www.instagram.com/jshomali/">
 	          		<FontAwesomeIcon style={{padding:"20px", transition: "0.3s"}} icon={['fab', 'instagram']} size="2x"/>
 	          	</a>
 	        </div>

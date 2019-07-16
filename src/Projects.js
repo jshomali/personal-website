@@ -6,7 +6,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 class Projects extends Component {
 	render() {
 		return (
-			<div className="viewportCover">
+			<div className="final-cards">
 				<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true">
 				</ScrollAnimation>
 
@@ -39,7 +39,7 @@ class Projects extends Component {
 								<div className="container">
 									<FontAwesomeIcon icon={['fab', 'react']} size="3x"/>
 									<h2>Personal Website</h2>
-									<p>I created this website to showcase my interests and skills,
+									<p>I created this website to showcase my passion and interests,
 									built with ReactJS, NodeJS and CSS.</p>
 									<br/>
 									<br/>
@@ -53,7 +53,6 @@ class Projects extends Component {
 						</ScrollAnimation>
 					</div>
 
-
 					{/* Hackathon */}
 					<div className="higherCard">
 						<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true" delay="500">
@@ -65,8 +64,8 @@ class Projects extends Component {
                     providing a queue and useful services for both students and recruiters.</p>
 									<br/>
 									<br/>
-                  Github Repository
 									<a href="https://github.com/csvrcek/career" style={{transition: "0.3s"}}>
+                  	Github Repository
 										<FontAwesomeIcon icon={Icons.faAngleRight} size="1x"
 										color="black"/>
 									</a>
