@@ -34,7 +34,7 @@ class Projects extends Component {
 
 					{/* Personal Website */}
 					<div className="higherCard">
-						<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true" delay="500">
+						<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true">
 							<div className="card">
 								<div className="container">
 									<FontAwesomeIcon icon={['fab', 'react']} size="3x"/>
@@ -55,7 +55,7 @@ class Projects extends Component {
 
 					{/* Hackathon */}
 					<div className="higherCard">
-						<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true" delay="500">
+						<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true">
 							<div className="card">
 								<div className="container">
 									<FontAwesomeIcon icon={['fab', 'apple']} size="3x"/>
