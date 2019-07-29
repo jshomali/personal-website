@@ -2,7 +2,7 @@
   "name": "finalwebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://gitname.github.io/finalwebsite",
+  "homepage": "http://gitname.github.io/personal-website",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
