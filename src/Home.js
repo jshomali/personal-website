@@ -26,7 +26,6 @@ class Home extends Component {
 					<span id="main-text-four">Runner.</span>
 					<span id="main-text-last">Creator.</span>
 					<span id="main-subtext">And this is my story.</span>
-
 				</div>
 				<img id="profile-image" className="animated bounceIn" src={profileImage} alt="Julian Shomali"/>
 				<div className="parallax-one"></div>

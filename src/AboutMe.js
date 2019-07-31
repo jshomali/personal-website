@@ -32,6 +32,7 @@ class AboutMe extends Component{
                     </div></div>
 
         <div className="box box4"><div></div></div>
+        <span id="pro-header">Check out some of my projects.</span>
       </div>
 
     )

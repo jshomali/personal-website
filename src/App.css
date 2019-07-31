@@ -288,6 +288,7 @@ html {
   #image-profile {
     height: 100px;
   }
+
 }
 
 /* iphone 6, 6s, 7, 8 */
@@ -304,7 +305,7 @@ html {
     top: 20px;
   }
   #main-header {
-    font-size: 180%;
+    font-size: 153%;
     /* right: 50%; */
     /* left: 50%; */
   }
@@ -325,9 +326,9 @@ html {
   }
   #main-subtext {
     width: 100%;
-    font-size: 180%;
+    font-size: 170%;
     position: relative;
-    left: 13%;
+    left: 9%;
     top: 400px;
   }
   #profile-image {
@@ -340,11 +341,8 @@ html {
     font-size: 180%;
     left: 0%;
   }
-  #main-mobile {
-    position: relative;
-    font-size: 100%;
-    font-size: 180%;
-  }
+
+
 }
 
 
@@ -357,7 +355,7 @@ html {
     /* display: none; */
   }
   #main-header {
-    font-size: 170%;
+    font-size: 153%;
     text-align: center;
     left: 7%;
     top: 5%;
@@ -381,9 +379,9 @@ html {
   }
   #main-subtext {
     width: 100%;
-    font-size: 180%;
+    font-size: 170%;
     position: relative;
-    left: 14%;
+    left: 9%;
     top: 480px;
   }
   #profile-image {
@@ -393,9 +391,17 @@ html {
     height: 250px;
   }
   #projects-text {
-    font-size: 180%;
+    font-size: 170%;
     left: 0%;
   }
+  #pro-header {
+    position: relative;
+    font-size: 150%;
+    padding: 5px 5px 5px 20px;
+    color: #184b53;
+  }
+
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -417,6 +423,9 @@ html {
     position: relative;
     min-width: 89%;
   }
+
+
+
 }
 
 .grid {
@@ -445,7 +454,7 @@ html {
 }
 
 .box1 {
-  background-image: url("./Assets/volunteering.jpg");
+  background-image: url("./Assets/siblings.jpeg");
   min-height: 500px;
   position: relative;
   width: 90%;
@@ -459,12 +468,14 @@ html {
   background-color: #184b53;
   color: black;
   font-size: 120%;
+  text-align: center;
 }
 
 .box3 {
   background-color: white;
   color: black;
   font-size: 120%;
+  text-align: center;
 }
 
 .box4 {
@@ -476,6 +487,13 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#pro-header {
+  position: relative;
+  font-size: 145%;
+  padding: 5px 5px 5px 20px;
+  color: #184b53;
 }
 
 /* @media screen and (max-width: 812px) {
