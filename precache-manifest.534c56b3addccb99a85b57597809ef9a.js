@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "ccda3d4b75de562b4b88d10b5ae42614",
-    "url": "/personal-website/static/media/volunteering.ccda3d4b.jpg"
+    "revision": "21abe8849003cb0dd7e1b0ca356df055",
+    "url": "/personal-website/static/media/siblings.21abe884.jpeg"
   },
   {
     "revision": "0d9d4569ac14761da6f9ddc31f63484b",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/personal-website/static/js/runtime~main.93f2c6c9.js"
   },
   {
-    "revision": "1cad3ded9a9c2eec294c",
+    "revision": "67416cdd5ca57794dd45",
     "url": "/personal-website/static/js/main.476b7bca.chunk.js"
   },
   {
@@ -32,11 +32,11 @@ self.__precacheManifest = [
     "url": "/personal-website/static/js/2.79b22e70.chunk.js"
   },
   {
-    "revision": "1cad3ded9a9c2eec294c",
-    "url": "/personal-website/static/css/main.3699b55e.chunk.css"
+    "revision": "67416cdd5ca57794dd45",
+    "url": "/personal-website/static/css/main.65de8990.chunk.css"
   },
   {
-    "revision": "294ca951b56084a9ad3d550088f7c801",
+    "revision": "35dd1229a76424921ff8b7f13b6849ee",
     "url": "/personal-website/index.html"
   }
 ];
