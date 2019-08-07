@@ -23,7 +23,7 @@ class AboutMe extends Component{
 
         <div className="box box3"><div>Being a team player is my main mojo. Pictured on
                     here is a group from both MSU and UofM at
-                    GrizzHacks 3, one of the most fun hackathons I have been too.
+                    GrizzHacks 3, one of the most fun hackathons I have been to.
                     The team and I ended up building CareerLine, an app to help manage
                     career fairs and keep them organized. We thought this was a great
                     problem to tackle since career fairs are usually hectic and

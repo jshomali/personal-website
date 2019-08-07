@@ -9,7 +9,7 @@ import Projects from  './Projects';
 import Footer from './Footer';
 import Nav from './Nav';
 
-fontawesome.library.add(brands, faAngleDown, faAngleRight)
+fontawesome.library.add(brands, faAngleDown, faAngleRight);
 
 class App extends Component {
   render() {

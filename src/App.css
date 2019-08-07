@@ -123,6 +123,9 @@ html {
   opacity: 0.7;
 }
 
+
+
+
 #main-header {
   z-index: 4;
   font-size: 400%;
@@ -132,6 +135,8 @@ html {
   right: 0%;
   top: -40px;
   color: #184b53;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
 }
 
 #main-text {
@@ -142,6 +147,8 @@ html {
   left: 0%;
   top: 40px;
   color: #184b53;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
 }
 
 #main-text-two {
@@ -152,6 +159,8 @@ html {
   right: 0%;
   top: 125px;
   color: #184b53;
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
 }
 
 #main-text-three {
@@ -162,6 +171,8 @@ html {
   left: 0%;
   top: 250px;
   color: #184b53;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
 }
 
 #main-text-four {
@@ -172,6 +183,8 @@ html {
   right: 0%;
   top: 375px;
   color: #184b53;
+  animation-duration: 2.5s;
+  animation-delay: 0.5s;
 }
 
 #main-text-last {
@@ -182,6 +195,8 @@ html {
   left: 0%;
   top: 500px;
   color: #184b53;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
 }
 
 #main-subtext {
@@ -192,6 +207,8 @@ html {
   left: 36%;
   top: 600px;
   color: #184b53;
+  animation-duration: 3s;
+  animation-delay: 0.5s;
 }
 
 #profile-image {
@@ -204,6 +221,8 @@ html {
   border:"3px solid white";
   top: 20%;
   left: 37%;
+  animation-delay: 1.5s;
+  animation-duration: 0.5s;
 }
 
 .centered {
