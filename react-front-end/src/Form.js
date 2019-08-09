@@ -33,7 +33,7 @@ class Form extends Component{
     render(){
         return(
           <div className="col-sm-4 offset-sm-4 form">
-            <span id="pro-header-2">Feel free to send me a message.</span>
+            <span id="pro-header-2">Feel free to send me an email.</span>
             <br></br>
             <br></br>
             <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">

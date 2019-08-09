@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import Navbar from 'react-bootstrap/Navbar';
-import resume from './Assets/JulianShomaliResumeSS19.pdf';
+import resume from './Assets/JulianShomaliResumeSS.pdf';
 import { ScrollTo } from "react-scroll-to";
 
 class Nav extends Component {
