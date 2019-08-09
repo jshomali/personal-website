@@ -20,7 +20,7 @@ class App extends Component {
         <Home/>
         <AboutMe/>
         <Projects/>
-        <Form/>
+
         <Footer/>
       </div>
     );
