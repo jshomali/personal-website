@@ -10,7 +10,7 @@ class Form extends Component{
         const message = document.getElementById('message').value;
         axios({
             method: "POST",
-            url:"http://localhost:3002/send",
+            url:"http://localhost:3000/send",
             data: {
                 name: name,
                 email: email,
@@ -52,7 +52,7 @@ class Form extends Component{
               <div className="form-group">
                   <label for="message" style={{color: 'white'}}>Message</label>
                   <br></br>
-                  <textarea className="form-control" rows="5" id="message"></textarea>
+                  <textarea className="form-control" rows="6" id="message"></textarea>
               </div>
               <br></br>
                 <button type="submit" className="btn btn-primary">Submit</button>
