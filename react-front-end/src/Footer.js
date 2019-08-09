@@ -5,7 +5,6 @@ class Footer extends Component {
   render() {
     return (
       <div id="footer">
-      <hr></hr>
         <div className="footerContent">
         	<div style={{paddingTop:"30px"}}>
           		React Site Created by Julian Shomali
