@@ -6,17 +6,16 @@ class AboutMe extends Component{
     return (
       <div className="grid">
         <div className="box box1"><div></div></div>
-        <div className="box box2"><p>Currently, I am a senior at <b>Michigan State University</b>.
-                    I am pursuing a Computer Science degree in their College of Engineering with a minor in Cognitive
-                    Science. I have been heavily involved with the CS community
-                    through out my years as a Spartan. From being the Logistics Coordinator for SpartaHack to
+        <div className="box box2"><h1>How's life going? Good question.</h1><p>Currently, I hold a Bachelor's in Computer Science with a minor in Cognitive Science from <b>Michigan State University</b>.
+                    Due to the pandemic, I decided to pursue a Master's in Computer Science at MSU.
+                    Over the years, I have been heavily involved with the Spartan CS community. From being the Logistics Coordinator for SpartaHack to
                     being the President of Spartan Hackers (two different clubs!), I have brought up the community
                     by getting more students involved in learning material outside of the classroom. Other topics that
                     I am interested in is Psychology, Linguistics, and Neuroscience, which is why I am pursuing that minor!
-                    Other than being a constant learner, I like to play on my Nintendo Switch, go for runs (ran 2 marathons!),
-                    drink locally brewed beer, and hang out with my friends!</p></div>
+                    Other than being a constant learner, I am active on my Nintendo Switch, go for runs (ran 2 marathons!),
+                    drink craft beer, and hangout with people!</p></div>
 
-        <div className="box box3"><div>Being a team player is my main mojo. Pictured on
+        <div className="box box3"><h1>Want to know more?</h1><div>Being a team player is my main mojo. Pictured on
                     here is a group from both MSU and UofM at
                     GrizzHacks 3, one of the most fun hackathons I have been to.
                     The team and I ended up building CareerLine, an app to help manage

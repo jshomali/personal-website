@@ -19,7 +19,7 @@ class Projects extends Component {
 								<div className="container">
                   <FontAwesomeIcon icon={['fas', 'beer']} size="3x"/>
 									<h2>Drinkery</h2>
-									<p>Built during my internship at Spartan Innovations using Ionic and Firebase.
+									<p>Built during my internship with three other developers at Spartan Innovations using Ionic and Firebase.
                    For users to find bars and their deals nearby.</p>
 									<br/>
 									<a href="https://apps.apple.com/us/app/drinkery-bars-events-deals/id1458550167" style={{transition: "0.3s"}}>
