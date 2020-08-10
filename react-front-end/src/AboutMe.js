@@ -11,8 +11,8 @@ class AboutMe extends Component{
                     Over the years, I have been heavily involved with the Spartan CS community. From being the Logistics Coordinator for SpartaHack to
                     being the President of Spartan Hackers (two different clubs!), I have brought up the community
                     by getting more students involved in learning material outside of the classroom. Other topics that
-                    I am interested in is Psychology, Linguistics, and Neuroscience, which is why I am pursuing that minor!
-                    Other than being a constant learner, I am active on my Nintendo Switch, go for runs (ran 2 marathons!),
+                    I am interested in is Psychology, Linguistics, and Neuroscience, which is why I am pursued that minor!
+                    Other than being a constant learner, I am active on my Nintendo Switch, go for runs (finished 2 marathons!),
                     drink craft beer, and hangout with people!</p></div>
 
         <div className="box box3"><h1>Want to know more?</h1><div>Being a team player is my main mojo. Pictured on
